@@ -8,6 +8,7 @@ if ( isset($_SESSION['idUsuario']) && !empty($_SESSION['idUsuario'])  ) {
 	$idUsuario = $_SESSION['idUsuario'];
 	$nmUsuario = $_SESSION['nmUsuario'];
 	$pmUsuario = $_SESSION['pmUsuario'];
+	$foto	   = $_SESSION['foto'];
 }
 else {
 

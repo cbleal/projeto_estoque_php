@@ -29,9 +29,10 @@ class Connect
 
 			$_SESSION['idUsuario'] = $data['id'];
 			$_SESSION['nmUsuario'] = $data['nome'];
-			$_SESSION['pmUsuario'] = $data['ativo'];
+			$_SESSION['pmUsuario'] = $data['permissao'];
+			$_SESSION['foto'] 	   = $data['imagem'];
 
-			header("Location: ../pages/");
+			header("Location: ../Views/");
 		}
 		else {
 
